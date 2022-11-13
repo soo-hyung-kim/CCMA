@@ -8,7 +8,7 @@ import sqlite3
 app = Flask(__name__)
 
 #CockroachDB Connection String to Cluster:
-# databaseurl = "postgresql://wellesleyccma:ICm65Wq_b3pjGtSSvMN6Gw@free-tier14.aws-us-east-1.cockroachlabs.cloud:26257/defaultdb?sslmode=verify-full&options=--cluster%3Ddizzy-fish-6639"
+# databaseurl = {}
 
 #db = SQLAlchemy()
 #def create_app():
