@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style.css')}}"
+    />
+    <title>Volunteer</title>
+  </head>
+  <body>
+    <form method="GET" action="postrequest">
+      <label for="Name"> Full Name</label>
+      <input name="Name" placeholder="Full Name" /><br />
+      <label for="Number"> Phone Number</label>
+      <input name="Number" placeholder="Phone Number" /><br />
+
+      <fieldset>
+        <legend>Time Availability</legend>
+        <input type="checkbox" id="monday" name="monday" value="Monday" />
+        <label for="monday"> Monday</label><br />
+        <input type="checkbox" id="tuesday" name="tuesday" value="Tuesday" />
+        <label for="tuesday"> Tuesday</label><br />
+        <input type="checkbox" id="wednesday" name="wednesday" value="Wednesday" />
+        <label for="wednesday"> Wednesday</label><br />
+        <input type="checkbox" id="thursday" name="thursday" value="Thursday" />
+        <label for="thursday"> Thursday</label><br />
+        <input type="checkbox" id="Friday" name="Friday" value="Friday" />
+        <label for="Friday"> Friday</label><br />
+        <input type="checkbox" id="Saturday" name="Saturday" value="Saturday" />
+        <label for="Saturday"> Saturday</label><br />
+        <input type="checkbox" id="Sunday" name="Sunday" value="Sunday" />
+        <label for="Sunday"> Sunday</label><br />
+      </fieldset>
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>

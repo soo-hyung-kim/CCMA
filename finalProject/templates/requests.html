@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style.css')}}"
+    />
+    <title>Requests</title>
+  </head>
+  <body>
+    <h1>Available Requests</h1>
+    
+    <div id="req">
+      <table>
+        <tr>
+          <th>Dorm</th>
+          <th>Mask</th>
+          <th>Food</th>
+          <th>Rapid Test</th>
+        </tr>
+        <tr>
+          <td>Freeman</td>
+          <td>False</td>
+          <td>False</td>
+          <td>True</td>
+        </tr>
+        <tr>
+          <td>Stone D</td>
+          <td>True</td>
+          <td>False</td>
+          <td>True</td>
+        </tr>
+        <tr>
+          <td>Tower West</td>
+          <td>False</td>
+          <td>True</td>
+          <td>False</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
